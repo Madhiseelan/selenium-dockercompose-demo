@@ -1,0 +1,10 @@
+2025-11-14 16:24:04 [TestNG-tests-2] INFO  BaseTest:52 - Logger Msg: Browser Name is firefox
+2025-11-14 16:24:04 [TestNG-tests-1] INFO  BaseTest:52 - Logger Msg: Browser Name is firefox
+2025-11-14 16:24:04 [TestNG-tests-2] INFO  BaseTest:55 - Resolved browser parameter: firefox
+2025-11-14 16:24:04 [TestNG-tests-1] INFO  BaseTest:55 - Resolved browser parameter: firefox
+2025-11-14 16:24:04 [TestNG-tests-1] INFO  BaseTest:56 - System property browserName: null
+2025-11-14 16:24:04 [TestNG-tests-2] INFO  BaseTest:56 - System property browserName: null
+2025-11-14 16:24:04 [TestNG-tests-1] INFO  BaseTest:57 - Platform (AppConstants.platform): remote
+2025-11-14 16:24:04 [TestNG-tests-2] INFO  BaseTest:57 - Platform (AppConstants.platform): remote
+2025-11-14 16:24:15 [TestNG-tests-1] INFO  LoginPageTests:27 - *** username is: *** standard_user
+2025-11-14 16:24:18 [TestNG-tests-2] INFO  ProductsPageTests:17 - *** Products page - Logger Test - test Item name ***

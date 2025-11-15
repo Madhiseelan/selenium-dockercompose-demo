@@ -1,0 +1,4 @@
+2025-10-27 12:11:56 [TestNG-tests-2] INFO  BaseTest:53 - Logger Msg: Browser Name is chrome
+2025-10-27 12:11:56 [TestNG-tests-1] INFO  BaseTest:53 - Logger Msg: Browser Name is chrome
+2025-10-27 12:11:57 [TestNG-tests-2] INFO  ProductsPageTests:17 - *** Products page - Logger Test - test Item name ***
+2025-10-27 12:12:08 [TestNG-tests-1] INFO  LoginPageTests:28 - *** username is: *** standard_user
