@@ -50,7 +50,7 @@ public class BaseTest {
             browser = AppConstants.browserName;
         }
         logger.info("Logger Msg: Browser Name is " + browser);
-        //System.out.println("Browser Name : " + browser);
+        System.out.println("Browser Name : " + browser);
 
         logger.info("Resolved browser parameter: " + browser);
         logger.info("System property browserName: " + System.getProperty("browserName"));
@@ -77,7 +77,7 @@ public class BaseTest {
             else if (AppConstants.platform.equalsIgnoreCase("remote_git")){
                 co.addArguments("--headless"); //for github actions only
                 co.addArguments("--disable-gpu");
-                co.addArguments("no-sandbox");
+                co.addArguments("--no-sandbox");
                 WebDriverManager.chromedriver().setup();
                 co.addArguments("--remote-allow-origins=*");
                 driver = new ChromeDriver();
