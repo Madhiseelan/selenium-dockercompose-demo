@@ -104,6 +104,14 @@ public class BaseTest {
                     throw new RuntimeException(e);
                 }
             }
+            else if (AppConstants.platform.equalsIgnoreCase("remote_git")){
+                fo.addArguments("--headless"); //for Github Actions only
+                fo.addArguments("--disable-gpu");
+                fo.addArguments("--no-sandbox");
+                fo.addArguments("--remote-allow-origins=*");
+                WebDriverManager.firefoxdriver().setup();
+                driver = new FirefoxDriver(fo);
+            }
             else{
                 logger.error("Platform Not Supported ..!");
             }
