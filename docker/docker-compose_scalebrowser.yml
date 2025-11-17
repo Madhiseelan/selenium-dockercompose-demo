@@ -5,6 +5,8 @@ services:
     shm_size: 2gb
     depends_on:
       - selenium-hub
+    deploy:
+      replicas: 4
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
@@ -17,6 +19,8 @@ services:
     shm_size: 2gb
     depends_on:
       - selenium-hub
+    deploy:
+      replicas: 2
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
@@ -33,4 +37,3 @@ services:
       - "4444:4444"
 # 4444 - UI/status/Incoming test execution requests to Hub
 # 4442/4443 - hub/nodes communications from hud to browser and vice versa
-
